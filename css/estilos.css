@@ -1,0 +1,107 @@
+header{
+    background-color: #262626;
+    color: #d1ddd0;
+    height: 120%;
+    text-align: center;
+}
+
+header h2{
+    color: #ff5f5c;
+
+
+}
+
+.centralizar{
+        max-width: 1200px;   /* largura maxima da pagina vai ser 1200px*/ 
+        margin: 0 auto; /* 0 de margem no topo e no botom, e auto centralizado na esquerda e na direita*/
+        widht: 100%;  /* quando o site for menor ou igual a 1200px ele vai mostrar 100% na tela, vai ajustar certinho a tela */
+
+}
+
+.infoHeader{
+    display: flex;
+    justify-content: space-around;
+    margin: 2% 10% 0 10%;
+}
+
+.infoHeader h3{
+    font-size: 18px;;
+}
+
+.redesHeader{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+
+
+.redesHeader div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redesHeader div img{
+    margin-right: 1.5%;
+    width: 6%;
+
+}
+
+.redesHeader div h3{
+    font-size: 16px;
+}
+
+.redesHeader div a{
+    color: #d1ddd0;
+}
+
+/* ###############  sectionCV   ########## */
+
+.sectionCV{
+    display: flex;
+    justify-content: space-between;
+}
+
+.backgroundConhecimentos{  
+    background-color: #262626;  
+    width: 100%;
+}
+
+.conhecimentos{    
+    color: #d1ddd0;
+    margin-top: 5%;
+    width: 40%;
+    margin-right: 17%;
+    background-color: #262626;
+    
+}
+
+.conhecimentos article{
+    margin-left: auto;
+    align-items: right;
+}
+.conhecimentos h2{
+   color: #ff5f5c;
+   font-size: 25px;
+   width: 100%;
+}
+
+.conhecimentos p{
+    text-justify: auto;
+}
+
+.conhecimentos ul{
+    padding: 0;
+}
+.conhecimentos li{
+    list-style: none;
+}
+
+
+
+
+/* algumas configurações para o projeto no css do bootstrap*/
+.container-sm,.container-md, .container-lg, .container-xl{
+    text-align: center;
+  
+}
